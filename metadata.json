@@ -1,0 +1,10 @@
+{
+  "name": "DJAI v1.6-dev",
+  "description": "Control real time music and slideshow with a MIDI controller or a touchscreen",
+  "requestFramePermissions": [],
+  "prompt": "",
+  "bpm-range": [
+    110,
+    150
+  ]
+}

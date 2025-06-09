@@ -1,0 +1,62 @@
+/* theme_colors.css */
+
+:root {
+  /* ---------------------------------------------- */
+  /* --- EDM Techno House Prog 90s THEME VARS --- */
+  /* ---------------------------------------------- */
+
+  /* --- General App Colors --- */
+  --app-background-color: #111111;
+  --app-text-color: #E0E0E0;
+  --app-title-color: #00FFFF; /* Cyan */
+  --app-title-shadow-primary: #FFFFFF;
+  --app-title-shadow-secondary: #FF00FF; /* Magenta */
+  --app-title-shadow-tertiary: #9400D3; /* Dark Violet */
+
+  /* --- Knob & Button Colors --- */
+  /* Off State (for toggle buttons primarily) */
+  --button-small-bg-color: #282828;
+  --button-small-text-color: #CCCCCC;
+  --button-small-border-color: #404040;
+  --button-small-bg-color-hover: #383838;
+  --button-small-border-color-hover: #505050;
+  --button-small-bg-color-active: #484848;
+
+
+  /* Filtered State (common for knobs and buttons) */
+  --knob-filtered-bg-color: #FF4500; /* OrangeRed */
+  --knob-filtered-text-color: #FFFFFF;
+  --knob-filtered-border-color: #CC3700;
+  --knob-filtered-bg-color-hover: #E53E00;
+  --knob-filtered-border-color-hover: #B22F00;
+
+  /* On State (active prompt/button colors) */
+  --knob-on-base-color: #FF00FF; /* Magenta - General Placeholder if a specific color isn't used by prompt */
+  --knob-on-text-color: #FFFFFF; /* Text color for active elements with dark backgrounds */
+  --knob-on-text-color-light-bg: #000000; /* Text color for active elements if their background (this.color) is light */
+
+
+  /* Etichette sotto i knob grandi */
+  --knob-label-text-color: #FFFFFF;
+  --knob-label-bg-color: #000000B3; /* Semi-transparent black */
+
+
+  /* --- Halo Blobs Background Colors (Array di 5 colori) --- */
+  --halo-blob-color-1: #FF00FF; /* Magenta */
+  --halo-blob-color-2: #00FFFF; /* Cyan */
+  --halo-blob-color-3: #00FF00; /* Lime Green */
+  --halo-blob-color-4: #FFFF00; /* Yellow */
+  --halo-blob-color-5: #FF6600; /* Orange */
+
+  /* --- SVG Knob Internal Colors --- */
+  --svg-knob-static-highlight: #DEDEDE;
+  --svg-knob-static-midtone: #999999;
+  --svg-knob-static-shadow-fill: #1A1A1A;
+  --svg-knob-arc-background: rgba(255, 255, 255, 0.15);
+  --svg-knob-arc-foreground: #00FFFF; /* Default for active arc, overridden by prompt color */
+
+  /* --- Specific Theme Colors for App Title & UI Accents --- */
+  --theme-color-cyan: #00FFFF;
+  --theme-color-magenta: #FF00FF;
+  --theme-color-yellow: #FFFF00;
+}

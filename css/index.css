@@ -1,0 +1,15 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  overflow:hidden;
+}
+body.dragging {
+  cursor: ns-resize; /* Or grabbing, depending on fader orientation */
+}
+body.dragging * {
+  user-select: none;
+  pointer-events: none;
+}

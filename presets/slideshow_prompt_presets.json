@@ -1,0 +1,91 @@
+
+{
+  "Visual_Themes": {
+    "90s_Rave_Culture": {
+      "keywords": ["rave", "warehouse", "90s", "party", "flyer", "acid", "smiley", "underground", "festival", "strobe", "laser"],
+      "prompts": [
+        { "prompt": "Flyers for a 90s warehouse rave, vibrant acid graphics" },
+        { "prompt": "Energetic crowd dancing at an illegal rave, 1992 atmosphere" },
+        { "prompt": "Iconic smiley face logo on a vintage 90s rave t-shirt" },
+        { "prompt": "Intense laser show cutting through smoke at a large techno event, 90s vibe" },
+        { "prompt": "Silhouetted figures dancing under pulsating strobe lights" }
+      ]
+    },
+    "Abstract_Digital_Art_90s": {
+      "keywords": ["abstract", "cgi", "fractal", "wireframe", "glitch", "geometric", "screensaver", "retro", "demo scene", "pixelated", "low-poly"],
+      "prompts": [
+        { "prompt": "Early CGI generated fractals, explosion of vibrant colors, 90s digital aesthetic" },
+        { "prompt": "Complex wireframe graphics, reminiscent of 90s demo scene visuals" },
+        { "prompt": "Pixelated glitch art, chaotic digital noise patterns and artifacts" },
+        { "prompt": "Geometric patterns in perpetual motion, retro screensaver art style" },
+        { "prompt": "Liquid chrome abstract 3D renders from the early 90s, morphing shapes" }
+      ]
+    },
+    "Techno_Aesthetics": {
+      "keywords": ["techno", "industrial", "berlin", "minimal", "monochromatic", "concrete", "brutalist", "underground", "dark", "raw", "machine"],
+      "prompts": [
+        { "prompt": "Dark industrial visuals, cold metallic textures, rhythmic light pulses" },
+        { "prompt": "Minimalist geometric patterns, iconic techno album art style" },
+        { "prompt": "Interior of a Berlin techno club, dark, sweaty, and gritty atmosphere" },
+        { "prompt": "Stark monochromatic lights flashing over concrete walls" },
+        { "prompt": "Repetitive visual loops creating a hypnotic, trance-inducing effect" }
+      ]
+    },
+    "House_Music_Vibes": {
+      "keywords": ["house", "chicago", "ny", "garage", "soulful", "uplifting", "disco", "club", "warm", "positive", "vinyl", "groove"],
+      "prompts": [
+        { "prompt": "Smiling faces and positive energy at a classic 90s house music club" },
+        { "prompt": "Warm sunset over a beach party, deep house music vibes" },
+        { "prompt": "A sparkling disco ball reflecting colorful lights in a dimly lit, packed club" },
+        { "prompt": "Vintage analog synthesizer setup in a home studio, warm evening lighting" },
+        { "prompt": "Close up of a vinyl record spinning on a turntable, focus on the grooves" }
+      ]
+    },
+    "Trance_And_Progressive_Imagery": {
+      "keywords": ["trance", "progressive", "psychedelic", "cosmic", "ethereal", "dreamlike", "vortex", "glowing", "futuristic", "uplifting", "nebula", "astral"],
+      "prompts": [
+        { "prompt": "Expansive psychedelic visuals for trance music, swirling iridescent colors" },
+        { "prompt": "Vast cosmic nebula backgrounds, distant galaxies, and astral bodies" },
+        { "prompt": "Abstract light tunnels and vortexes, creating a strong sense of forward motion" },
+        { "prompt": "Ethereal, dreamlike landscapes with impossible glowing flora" },
+        { "prompt": "Futuristic cityscapes at twilight, bathed in neon and progressive trance energy" }
+      ]
+    },
+    "Cyberpunk_Retrowave": {
+      "keywords": ["cyberpunk", "retrowave", "synthwave", "neon", "80s", "futuristic", "dystopian", "grid", "chrome", "hologram"],
+      "prompts": [
+        { "prompt": "Neon-drenched cyberpunk city street at night, flying vehicles, rain" },
+        { "prompt": "Retrowave sunset with a chrome sports car driving towards a digital grid horizon" },
+        { "prompt": "Holographic advertisements flickering in a dystopian megacity" },
+        { "prompt": "Wireframe landscape glowing with purple and blue neon lines" },
+        { "prompt": "Interior of a futuristic arcade, 80s retrowave aesthetic" }
+       ]
+    }
+  },
+  "Final_Style_Suffixes": {
+    "Techno_Industrial_Style": {
+      "keywords": ["techno", "industrial", "dark", "minimal", "raw", "concrete", "acid", "brutalist", "monochromatic"],
+      "suffix": ", stark, monochromatic, raw textures, concrete and metal, grainy film, brutalist architectural elements, high contrast"
+    },
+    "Trance_Euphoric_Style": {
+      "keywords": ["trance", "progressive", "euphoric", "uplifting", "dream", "ethereal", "cosmic", "psychedelic", "glowing"],
+      "suffix": ", ethereal glow, cosmic particles, lens flares, motion blur, vibrant and saturated colors, dream-like atmosphere, flowing energy"
+    },
+    "House_Warm_Style": {
+      "keywords": ["house", "soulful", "deep", "disco", "positive", "warm", "garage", "chicago", "ny"],
+      "suffix": ", warm color palette, soulful feeling, analogue warmth, vintage photograph filter, soft focus, inviting atmosphere"
+    },
+    "Abstract_Digital_90s_Style": {
+      "keywords": ["abstract", "glitch", "cgi", "90s", "retro", "digital", "wireframe", "screensaver", "pixel", "fractal"],
+      "suffix": ", abstract digital art, generative patterns, dynamic motion, energetic light trails, classic 90s techno aesthetic, vibrant neon highlights, a touch of pixelation"
+    },
+    "Cyberpunk_Retrowave_Style": {
+      "keywords": ["cyberpunk", "retrowave", "synthwave", "neon", "80s", "futuristic", "grid", "dystopian", "chrome"],
+      "suffix": ", neon glow, chrome reflections, digital grid lines, volumetric lighting, cinematic, slightly desaturated shadows, 80s movie poster style"
+    },
+    "Default_Dynamic_Style": {
+      "keywords": [],
+      "suffix": ", dynamic abstract motion, vibrant colors, energetic patterns, digital art aesthetic"
+    }
+  }
+}
